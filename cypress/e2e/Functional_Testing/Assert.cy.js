@@ -18,7 +18,7 @@ describe('Explicit Assertions', () => {
         cy.get(".oxd-button").click()
 
 
-        let ExpName = "manda user"
+        let ExpName = "Ricardo Molina"
 
         cy.get(".oxd-userdropdown-name").then( (expName)=>{
 
@@ -26,7 +26,7 @@ describe('Explicit Assertions', () => {
    
             //TDD Style
             assert.equal(actName,ExpName)
-            assert.to.not.equal(actName,ExpName) // Negative Test Case this should fail
+            assert.notEqual(actName,ExpName) // Negative Test Case this should fail
            
         })
 
