@@ -5,7 +5,7 @@ describe('Explicit Assertions', () => {
 
     //BDD Approach "Given Page, When User Enter UN and PW, Then User Navigates to Dashboard "
 
-    it('Given UN and PW, When Navigating to Dashboard, Then UN should be Equal', () => {
+    it('Given UN and PW, When Navigating to Dashboard, Then UN should be Equal and Need to navigate to landing page', () => {
         
         cy.get("[name='username']").type("Admin")
         cy.get("[name='username']").should('have.value','Admin')
