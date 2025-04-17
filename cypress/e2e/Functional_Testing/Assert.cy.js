@@ -18,7 +18,7 @@ describe('Explicit Assertions', () => {
         cy.get(".oxd-button").click()
 
 
-        let ExpName = "FirstNameTest LastNameTest"
+        let ExpName = "manda user"
 
         cy.get(".oxd-userdropdown-name").then( (expName)=>{
 
