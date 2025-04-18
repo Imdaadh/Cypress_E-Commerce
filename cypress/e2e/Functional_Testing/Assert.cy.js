@@ -26,7 +26,7 @@ describe('Explicit Assertions', () => {
    
             //TDD Style
             assert.equal(actName,ExpName)
-            // assert.notEqual(actName,ExpName) // Negative Test Case this should fail
+            // assert.notEqual(actName,ExpName) // Negative Test Case this should fail "comments"
            
         })
 
